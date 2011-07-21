@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 TOP=`pwd`
 
 mkdir tmp-build
