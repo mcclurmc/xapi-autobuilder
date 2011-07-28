@@ -17,13 +17,13 @@ git clone git://github.com/jonludlam/blktap.git tmp-checkout/blktap
 ./build_deb.sh blktap 0.1 git://github.com/jonludlam/blktap-debian.git 
 
 # Xen-api-libs
-git clone git://github.com/jonludlam/xen-api-libs.git tmp-checkout/xen-api-libs
-./mk_git_archive.sh tmp-checkout/xen-api-libs xen-api-libs debian 0.1 $TOP/pristine
+git clone git://github.com/xen-org/xen-api-libs.git tmp-checkout/xen-api-libs
+./mk_git_archive.sh tmp-checkout/xen-api-libs xen-api-libs master 0.1 $TOP/pristine
 ./build_deb.sh xen-api-libs 0.1 git://github.com/jonludlam/xen-api-libs-debian.git
 
 # Xen-api
-git clone git://github.com/jonludlam/xen-api.git tmp-checkout/xen-api
-./mk_git_archive.sh tmp-checkout/xen-api xen-api debian 0.1 $TOP/pristine
+git clone git://github.com/xen-org/xen-api.git tmp-checkout/xen-api
+./mk_git_archive.sh tmp-checkout/xen-api xen-api master 0.1 $TOP/pristine
 ./build_deb.sh xen-api 0.1 git://github.com/jonludlam/xen-api-debian.git
 
 # Vhdd
